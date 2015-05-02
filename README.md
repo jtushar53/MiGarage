@@ -1,2 +1,2 @@
 # MiGarage
-MiGarage Demo
+MiGarage Demo :)
