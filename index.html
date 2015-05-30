@@ -19,9 +19,17 @@
 <script src="assets/js/jquery.min.js"></script>
 <script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
 <style type="text/css">
-  .navbar-inverse .navbar-nav > li > a {
-  color: #FFF;
+  .navbar-inverse .navbar-nav > li > a { background-color: #FFF;color: #039AE6;}
+  .navbar-inverse {background-color: #fff;border-color: #039AE6;}
+  #headerwrap .btn {
+  background-color: white;
+  color:#039AE6;
 }
+ #headerwrap .btn:hover {
+  background-color: #039AE6;
+  color:white;
+}
+.img-center {margin:0 auto;}
 </style>
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -38,7 +46,7 @@
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-        <a class="navbar-brand" href="#home" style="color: white;"><img src="assets/img/logo.png" style="width:100%;"/></a> </div>
+        <a class="navbar-brand" href="#home" style="color: white;padding-top: 0px;"><img src="assets/img/logo.png" style="width:70%;background:rgba(255, 255, 255, 0);"/></a> </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#home" class="smoothScroll">Home</a></li>
@@ -56,8 +64,8 @@
 <!-- ==== HEADERWRAP ==== -->
 <div id="headerwrap" name="home">
   <header class="clearfix"> <!-- <i class="fa fa-language icon"></i> -->
-    <h1>Anywhere, when needed</h1>
     <a href="#services" class="smoothScroll btn btn-lg bgImage">See Our Works</a></header>
+    <h4><img src="assets/img/slogan.png" class="img-responsive"></h4>
 </div>
 <!-- /headerwrap --> 
 
@@ -67,7 +75,7 @@
     <div class="row white">
       <h2 class="centered">ABOUT US</h2>
       <hr>
-      <div class="col-md-4"> <img class="img-responsive" src="assets/img/about/about1.jpg" align=""> </div>
+      <div class="col-md-4"> <img class="img-responsive img-center" src="assets/img/middle.png"> </div>
       <div class="col-md-6 pull-right">
         <h3>Who we are</h3>
         <p>mi garage is a fast growing independant car service company based in Mumbai.We provide 24x7 roadside assistance for most of the emergency needs.
