@@ -261,14 +261,14 @@ a:before, a:after {
 }
 #about {
 	background: #fff;
-	padding: 60px 0;
+	padding: 100px 0;
 }
 #about img {
 	margin-top: 65px;
 }
 #services {
 	background: #ffffff;
-	padding: 60px 0;
+	padding: 100px 0;
 	text-align: center;
 }
 #services .fa {
@@ -307,14 +307,14 @@ a:before, a:after {
 }
 #portfolio {
 	background: #fff;
-	padding: 60px 0;
+	padding: 100px 0;
 }
 #portfolio .btn-default {
 	border: 0;
 }
 #contact {
 	background: #fff;
-	padding: 60px 0;
+	padding: 100px 0;
 	text-align: center;
 }
 #contact .form {
